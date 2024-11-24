@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Memoria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="game-panel">
+            <h1>JUEGO DE MEMORIA</h1>
+            <div class="scoreboard">
+                <div class="score">
+                    <p>Parejas completas</p>
+                    <span id="matched-pairs">0</span>
+                </div>
+                <div class="score">
+                    <p>Parejas restantes</p>
+                    <span id="remaining-pairs">8</span>
+                </div>
+                <button id="iniciar">INICIAR JUEGO</button>
+            </div>
+        </div>
+        <div class="game-container" id="game-board"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
